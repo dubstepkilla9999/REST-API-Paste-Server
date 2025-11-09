@@ -4,7 +4,7 @@ This simple REST web service stores any text and makes it available via a new ra
 Tested in a local network, using curl.
 
 **Endpoints:**
-*   **GET /storage/:id**: Retrieve a previously stored text by its ID.
+*   **GET /storage/{id}**: Retrieve a previously stored text by its ID.
 *   **POST /storage**: Create a new entry in the storage. Returns a JSON containing the text and its new randomly generated ID. You will then be able to retrieve this text by its ID.
   
   Post request body:
