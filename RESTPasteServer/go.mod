@@ -1,4 +1,4 @@
-module test/pasteapi
+module github.com/dubstepkilla9999/REST-API-Paste-Server
 
 go 1.25.3
 
